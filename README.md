@@ -2,6 +2,7 @@
 ## Flower Image Classifier: Project Overview
 
 * Used TensorFlow and Keras to build a convolutional neural network (CNN) architecture that predicts flower species out of 17 possible classes. 
+* Prepared raw images for analysis by normalizing them and changing their dimensions to 224X224 pixels.
 * Leveraged transfer learning on pre-trained VGG16 model to speed up model fitting and increase its accuracy. 
 * Incorporated data augmentation techniques (such as zoom, horizontal flip, rotation) on raw images to increase number of training examples and thus prevent overfitting during model fitting. 
 * Achieved ~85% accuracy on validation images with 64 training images per class.
